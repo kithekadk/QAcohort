@@ -1,12 +1,85 @@
-*{
-    border-radius: 10px;
-    margin: 20px;
-}
-
 body{
-    box-shadow: 2px 2px grey;
+    background-color: bisque;
+    /* background-image: url('https://cdn.pixabay.com/photo/2023/05/15/09/18/iceberg-7994536_1280.jpg'); */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 h2{
-    font-size: 20px;
+    color: rgb(21, 21, 209);
+}
+
+h3{
+    transition: transform 0.9s ease;
+}
+
+h3:hover{
+    background-color: red;
+    color:white;
+    transform: translateY(0.5rem);
+    border: 5px solid black;
+    outline: 3px dotted red;
+}
+
+p{
+    background-color: white;
+}
+
+ol li{
+    text-decoration: underline;
+    list-style-type:disc;
+}
+
+.traineestable{
+    background-color: aqua;
+    width: 80vw;
+}
+
+form{
+    /* background-color: yellow; */
+    width:100vw;
+    margin: 20px;
+}
+
+.traineestable td{
+    padding: 20px;
+}
+
+
+#tableheader th{
+    padding: 20px;
+}
+/* Styling the inputs to achieve color white for the form */
+input[type="submit"]{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    background-color: skyblue;
+    cursor: help;
+}
+
+input[type="text"], input[type="email"]{
+   color: red; 
+}
+
+.image{
+    width:30vw;
+}
+
+a:link{
+    color:red
+}
+
+a:visited{
+    color:green;
+}
+
+a:active{
+    color:blue
+}
+
+.padding{
+    /* background-color: yellow; */
+    width: 30vw;
+    padding: 30px 20px;
 }
