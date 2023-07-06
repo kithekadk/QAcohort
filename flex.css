@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.main{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:85vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid red 3px;
+    border-radius: 10px;
+    height:55vh;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.sedans{
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    order:1;
+    height:20vh;
+    align-self: end;
+}
+
+.sedans, .suvs, .luxury{
+    color: white;
+    padding: 30px;
+    width:20vw;
+}
+
+.suvs{
+    
+    background-color: rgb(18, 140, 188);
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-content: space-between;
+    /* align-items: flex-start; */
+    /* justify-content: end; */
+    order:9;
+    height:35vh;
+    flex-grow: 1;
+}
+
+.luxury{
+    
+    background-color: rgb(16, 58, 16);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    order:10;
+    height:25vh;
+    align-self: start;
+
+}
+
+button{
+    background: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
