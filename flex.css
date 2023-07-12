@@ -81,3 +81,20 @@ button{
 p{
     margin-top: 20px;
 }
+
+.btn{
+    margin-left: 90vw;
+    background-color: rgb(49, 181, 233);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(14, 165, 224);
+}
+
+h2{
+    margin-left: 20vw;
+}
