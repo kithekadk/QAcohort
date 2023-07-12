@@ -1,8 +1,13 @@
+import { getUsers } from "./dom.js";
+
 let car = {
     type: "Heavy duty",
     model: "Audi",
     year: 2022,
 };
+
+let {model,year, ...rest} = car
+console.log(model , year);
 
 // let car = new Object();
 
@@ -70,3 +75,5 @@ let newobject = {
 }
 
 newobject.callEmergency()
+
+console.log(getUsers());

@@ -61,7 +61,7 @@ document.addEventListener('keydown', event=>{
     let d = 'KeyD'
     let w = 'KeyW'
 
-    console.log(event.code == 'KeyA');
+    // console.log(event.code == 'KeyA');
 
     // if (event.code == 'KeyA') {
     //     element.textContent ='Left';
@@ -84,3 +84,30 @@ document.addEventListener('keydown', event=>{
 
     }
 })
+
+function getUsers(){
+    let users = ['paul', 'ruth']
+    return users; 
+}
+
+// getUsers()
+
+// console.log(getUsers())
+
+// let users = getUsers(()=>['paul', 'ruth'])
+
+// console.log(users);
+
+let marks = 12345
+
+let m2 = `marks`;
+
+// console.log("${marks} ${m2}");
+
+// let username = 'Esther';
+
+// console.log(username ?? 'Bob');
+
+export {
+    getUsers
+}
